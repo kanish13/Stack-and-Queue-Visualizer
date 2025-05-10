@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content
+        ="width=device-width, initial-scale=1.0">
+    <title>
+        Stack Visualizer
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- heading -->
+    <!-- Stack Visualizer -->
+<header>
+    <h1 class="heading">Stack Visualizer</h1>
+</header>
+
+<div class="stack-container">
+    <div class="stack-header">
+        <input type="number" class="stack-input" required>
+        <button class="stack-push">Push</button>
+        <button class="stack-pop">Pop</button>
+        <button class="stack-reset">Reset</button>
+    </div>
+
+    <div class="stack-body">
+        <div class="stack-visual">
+            <div class="main-stack-bucket"></div>
+        </div>
+
+        <div class="stack-info">
+            <div class="stack-top">
+                <h3>Top of the Stack:</h3>
+                <button class="stack-box top-box"></button>
+            </div>
+            <div class="stack-last-push">
+                <h3>Last Pushed Item:</h3>
+                <button class="stack-box last-push-box"></button>
+            </div>
+            <div class="stack-last-pop">
+                <h3>Last Popped Item:</h3>
+                <button class="stack-box last-pop-box"></button>
+            </div>
+            <div class="stack-size">
+                <h3>Size of the Stack:</h3>
+                <button class="stack-box size-box">0</button>
+            </div>
+
+            <div class="stack-message-box">
+                <h2>Message Box</h2>
+                <div class="stack-message"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Inside <body> below Stack Visualizer -->
+
+<!-- Queue Visualizer -->
+<header>
+    <h1 class="heading">Queue Visualizer</h1>
+</header>
+
+<div class="queue-container">
+    <div class="queue-header">
+        <input type="number" class="queue-input" required>
+        <button class="queue-enqueue">Enqueue</button>
+        <button class="queue-dequeue">Dequeue</button>
+        <button class="queue-reset">Reset</button>
+    </div>
+
+    <div class="queue-body">
+        <div class="queue-visual">
+            <div class="main-queue-bucket"></div>
+        </div>
+
+        <div class="queue-info">
+            <div class="queue-front">
+                <h3>Front of the Queue:-</h3>
+                <button class="queue-box front-box"></button>
+            </div>
+            <div class="queue-rear">
+                <h3>Rear of the Queue:-</h3>
+                <button class="queue-box rear-box"></button>
+            </div>
+            <div class="queue-size">
+                <h3>Size of the Queue:-</h3>
+                <button class="queue-box size-box">0</button>
+            </div>
+
+            <div class="queue-message-box">
+                <h2>Message Box</h2>
+                <div class="queue-message"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
